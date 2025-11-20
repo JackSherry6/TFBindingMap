@@ -1,0 +1,5 @@
+name,path
+INPUT_rep1,/path/to/your/INPUT_rep1.fastq.gz
+INPUT_rep2,/path/to/your/INPUT_rep2.fastq.gz
+IP_rep1,/path/to/your/IP_rep1.fastq.gz
+IP_rep2,/path/to/your/IP_rep2.fastq.gz

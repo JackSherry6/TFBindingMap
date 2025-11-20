@@ -1,0 +1,71 @@
+2025-10-27 14:19:11	1.3s	loquacious_lamport	OK	dc1bb7b7d81c34e8f6d2211a6f8c188b	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-01 16:10:25	1.3s	extravagant_sanger	OK	57e3529f41248fb87fcb7c3bb997eedd	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-01 16:11:30	1m 2s	peaceful_engelbart	ERR	d7671a61b548d881d9d920dec8c578c7	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-01 16:22:45	29m 37s	exotic_perlman	OK	d7671a61b548d881d9d920dec8c578c7	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-01 16:53:18	-	ridiculous_feynman	-	9c1d1459e24c958efcff65057d8c3c19	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-01 16:54:43	2.1s	loving_pasteur	ERR	d4db667d9327a47fcbfb17146a111d52	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-01 16:57:59	1.4s	hungry_shockley	ERR	a8779c376f50ff04e44615905a411e33	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-01 16:59:08	6.8s	fabulous_davinci	OK	aceed0029e027bc305d4010d83f6d2bc	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-03 12:47:45	-	ridiculous_ochoa	-	fdf6bd01b81f8d96b858e5550ae9eb25	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-03 12:47:58	2m 2s	loquacious_majorana	ERR	b34bb477daa16665eb778bf1f6d19bdf	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-03 13:07:04	1m 37s	elegant_magritte	ERR	b34bb477daa16665eb778bf1f6d19bdf	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-03 13:12:31	2m 16s	soggy_laplace	OK	b34bb477daa16665eb778bf1f6d19bdf	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-03 13:25:46	-	loving_wing	-	789663b383bb1554c3c416f6bbf9657e	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-03 13:26:12	2m 52s	marvelous_watson	ERR	caeeb2ca6f9538ee61369d3266c69e3f	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-03 13:35:33	46.7s	angry_hawking	OK	91f926e87f4e4b9ba864899d6abd0398	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-03 15:27:58	2m 57s	amazing_albattani	OK	278e0e7079e036818e6dc272119ae4aa	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-03 15:35:24	6.4s	goofy_montalcini	OK	721ecd21dc857703d2a21b9fb7a31196	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-03 15:45:08	6.7s	crazy_shaw	OK	e340011aea864926dd474d47894e2040	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-03 15:48:51	31s	nauseous_poitras	ERR	98ab08eab715cfb228d04acf880184ce	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-03 15:49:27	2m 6s	tender_hoover	OK	98ab08eab715cfb228d04acf880184ce	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-05 15:59:20	7s	small_darwin	OK	365c5f34f336c40e5a6f2d2e3533a4d5	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-05 16:17:49	6.8s	berserk_ampere	OK	41357ef6cc67dd05ee73cc996887035c	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-05 16:43:46	-	elated_agnesi	-	a51eb6da780805dbce6b58a4c03421d9	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-05 16:44:57	-	kickass_einstein	-	a51eb6da780805dbce6b58a4c03421d9	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-05 16:46:00	3m 17s	infallible_stonebraker	OK	60ea108600315d75ef7bdad20c3c3c9b	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-05 17:24:12	21.3s	wise_pesquet	ERR	34163f9fe8e5b2b2197c7bb781e76676	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-05 17:37:29	2m 12s	determined_fourier	ERR	34163f9fe8e5b2b2197c7bb781e76676	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-05 17:43:22	-	suspicious_lavoisier	-	a5aed047fc8f268e881787b43616ec14	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-05 17:43:40	1m 42s	boring_aryabhata	ERR	af2d7dfd4255982bf919f8406754e9d2	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-05 17:47:20	3.5s	high_mestorf	ERR	6cec2aae9a6484a74379046fac92bc1d	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-05 17:48:51	1m 37s	infallible_joliot	ERR	2a87a61769c6a3f34f013498c92bc96f	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-05 17:51:29	1m 37s	pedantic_goldberg	ERR	2a87a61769c6a3f34f013498c92bc96f	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-05 17:55:19	26m 52s	ridiculous_wozniak	OK	29c1fadcf032a6f0bf77aa8152728bbc	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-06 13:47:38	1m 42s	festering_franklin	OK	518d7f2d8d75eaedf09bc88629b30a94	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-06 13:49:27	37.2s	gigantic_church	ERR	df1de2923e120bca083591ec4792d175	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-06 13:54:54	1m 13s	compassionate_brattain	ERR	df1de2923e120bca083591ec4792d175	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-06 14:01:32	1m 13s	jolly_varahamihira	ERR	df1de2923e120bca083591ec4792d175	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-06 14:06:22	46.6s	special_gautier	OK	df1de2923e120bca083591ec4792d175	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-06 14:15:26	7.2s	gigantic_blackwell	OK	c31ecfe382ce15b18bd42804298bcbf5	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-06 14:16:00	7.7s	lonely_keller	OK	c31ecfe382ce15b18bd42804298bcbf5	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-06 14:17:25	-	irreverent_linnaeus	-	37eed1a910720bb4988f3d96d9d041d1	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-06 14:18:04	1m 12s	zen_jepsen	ERR	37eed1a910720bb4988f3d96d9d041d1	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-06 14:21:34	1m 13s	prickly_sinoussi	ERR	37eed1a910720bb4988f3d96d9d041d1	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-06 14:27:32	2m 12s	golden_miescher	ERR	37eed1a910720bb4988f3d96d9d041d1	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-06 14:32:48	37.5s	happy_picasso	ERR	37eed1a910720bb4988f3d96d9d041d1	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-06 14:37:10	6.9s	elated_bose	OK	8709a07c7472c66b2e17419137f6abaa	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-06 14:40:46	2m 13s	shrivelled_waddington	ERR	37eed1a910720bb4988f3d96d9d041d1	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-06 14:56:20	2m 17s	prickly_crick	OK	a6503e893ef9f01382feebdfeaacbd48	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-07 09:32:59	7.2s	mad_hirsch	OK	a6503e893ef9f01382feebdfeaacbd48	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-07 09:33:21	46.8s	focused_moriondo	OK	0e8ee45037886b5ec7ed737cb4814ec1	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-07 09:36:59	1m 17s	curious_cuvier	OK	0e8ee45037886b5ec7ed737cb4814ec1	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-07 09:45:09	47.4s	special_galileo	OK	db0eb143349e7a5ffe2790c3a9ed17a0	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-08 15:34:54	46.8s	cranky_perlman	OK	a6a996e9565b8b2dca67e691a9cd4e69	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-08 15:44:44	7.2s	pensive_crick	OK	1665f7fe0dddbc6c81a6282b7fbd8898	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-08 15:49:00	-	sad_volhard	-	e15e12aef64c37e001db68b4644bea2d	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-08 15:51:40	-	jovial_coulomb	-	9bf9022e1c1581791c68d36ede860dee	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-08 15:51:56	7.5s	cranky_archimedes	OK	b1bcec930f2ca391c7d934347c399d78	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-08 15:53:00	-	goofy_sanger	-	e15e12aef64c37e001db68b4644bea2d	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-08 15:53:35	6.9s	serene_kay	OK	b2a1e3f3c82be077c62fa31a345d32e1	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-08 16:30:07	-	elegant_swartz	-	e31c2ddc6d8e6ad3bf7524d140d1274b	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-08 16:30:23	7.5s	dreamy_swirles	ERR	e7bbb61313443a2da8782bde62e18279	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-08 16:33:02	6.9s	fervent_goodall	OK	b3bfcde29773099753cd101af979e5dd	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-08 16:35:33	1m 13s	determined_galileo	ERR	787b537331b874c8a74ae0604a267b1a	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-08 16:38:07	2m 17s	desperate_salas	OK	787b537331b874c8a74ae0604a267b1a	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-08 16:46:59	2m 27s	golden_woese	OK	e7899b69ae9edc7eecb7c906c4dc2e19	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-08 17:05:59	44m 33s	suspicious_boltzmann	ERR	90899320f11d24a9975e117b1e5e68f1	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-09 13:28:24	7m 42s	friendly_fourier	ERR	90899320f11d24a9975e117b1e5e68f1	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-09 13:49:40	1h 5m 37s	naughty_lamport	ERR	90899320f11d24a9975e117b1e5e68f1	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-09 15:10:54	4h 13m 52s	goofy_lichterman	OK	90899320f11d24a9975e117b1e5e68f1	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-10 15:30:44	8.1s	cheesy_nightingale	OK	90899320f11d24a9975e117b1e5e68f1	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile singularity,cluster
+2025-11-11 10:31:39	-	cheeky_stonebraker	-	90899320f11d24a9975e117b1e5e68f1	e9a157ce-f097-4db7-8597-0bfca114698d	nextflow run main.nf -profile cluster,conda

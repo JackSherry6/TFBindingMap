@@ -10,8 +10,7 @@ processing of multiple replicates using user-provided metadata and reference fil
 4. Installation
 5. Usage
 6. Configuration
-7. Input and Output
-8. Contributing
+7. Contributing
 
 ## Features
 - Modular Nextflow pipeline with clear separation of steps:
@@ -32,7 +31,7 @@ processing of multiple replicates using user-provided metadata and reference fil
 - Supports both BU SCC and AWS Batch execution
 
 ## Workflow Visualization
-![Mermaid-plot](bin/bulk-rna-seq-mermaid-plot.png)
+![Mermaid-plot](bin/ChIP-seq-pipline.png)
 
 ## Requirements
 - Must have a conda environment with nextflow in order to run nextflow
@@ -48,23 +47,15 @@ processing of multiple replicates using user-provided metadata and reference fil
 Basic execution: 
 - ```module load miniconda```
 - ```conda activate <name_of_your_nexflow_conda_env>```
-- Set params.samples to the location of the folder containing your files
-- Set params.ref_genome, ref_index, ref_dict to their respective file locations
-- Modify the samples.csv file according to your sample names and groups 
+- Add your samples to samplesheet in the format specified in csv file
+- Set all params in config files to the locations of your files
 - ```nextflow run main.nf -profile conda,cluster``` (for waxman lab you should always run on the cluster, but if using aws, substitute ```aws``` for ```cluster```)
 
 ## Configuration
 - Edit the nextflow.config file to:
-  - Set input paths (reads, genome, gtf)
+  - Set input paths (reads, gtf, blacklist, etc...)
   - Adjust queueSize based on the number of samples
   - Optionally set resume = true to continue interrupted runs
-
-## Input and Output
-- Input:
-  - Folder of FASTQ files (paired-end _R1 and _R2)
-  - Reference genome FASTA, index, and GTF files
-- Output:
-  - Results folder with QC reports, aligned BAM files, and gene count matrices
 
 ## Contributing 
 - Email me at jgsherry@bu.edu for additional information or contributing information

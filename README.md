@@ -1,6 +1,6 @@
 # Standard ChIP-seq Analysis Pipeline
 
-A reproducible, modular ChIP-seq analysis pipeline built with Nextflow, designed for alignment, QC, peak calling, annotation, motif analysis, and signal-based visualization. The workflow supports automated 
+A reproducible, modular ChIP-seq analysis pipeline for understanding transcription factor binding, built with Nextflow, designed for alignment, QC, peak calling, annotation, motif analysis, and signal-based visualization. The workflow supports automated 
 processing of multiple replicates using user-provided metadata and reference files.
 
 ## Table of Contents

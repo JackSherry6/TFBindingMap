@@ -67,15 +67,26 @@ workflow {
 
     TAGDIR(BOWTIE2_ALIGN.out)
 
-    FINDPEAKS(TAGDIR.out)
+    peaks_ch = TAGDIR.out
+    .map { sample, tagdir ->
+        def rep = sample =~ /rep(\d+)/ ? (sample =~ /rep(\d+)/)[0][1] : null
+        tuple(rep, sample, tagdir)
+    }
+    .groupTuple(by: 0)
+    .map { rep, samples, tagdirs ->
+        def sorted = [samples, tagdirs].transpose().sort { it[0] }
+        def sortedTagdirs = sorted.collect { it[1] }
+        tuple("rep${rep}", sortedTagdirs[0], sortedTagdirs[1])
+    }
+
+    FINDPEAKS(peaks_ch)
 
     POS2BED(FINDPEAKS.out)
 
     intersect_ch = POS2BED.out
-        .map { name, path -> tuple(name.replaceAll(/_rep\d+$/, ''), path) }
+        .map { name, path -> tuple(name.replaceAll(/rep\d+$/, 'rep'), path) }
         .groupTuple(by: 0)
     
-
     BEDTOOLS_INTERSECT(intersect_ch)
 
     BEDTOOLS_REMOVE(BEDTOOLS_INTERSECT.out, params.blacklist)
